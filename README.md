@@ -14,13 +14,13 @@ A simple CLI app for scraping events from insider.in
 # Usage
 ## Help
 ```bash
-$ insider-scraper --help
+  $ insider-scraper --help
 ```
 ## Extract Events
 `search <keyword>`
 ```bash
-$ insider-scraper --city chennai --browser safari --driver-path '' --download-folder downloads
-$ insider-scraper -c chennai -b safari -dp '' -df downloads
+  $ insider-scraper --city chennai --browser safari --driver-path '' --download-folder downloads
+  $ insider-scraper -c chennai -b safari -dp '' -df downloads
 ```
 # Bugs?
 Feel free to open an issue.
