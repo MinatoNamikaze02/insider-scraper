@@ -3,10 +3,10 @@ from io import open
 from os import path
 
 import pathlib
-# The directory containing this file
+
 HERE = pathlib.Path(__file__).parent
 
-# The text of the README file
+
 README = (HERE / "README.md").read_text()
 
 # automatically captured required modules for install_requires in requirements.txt
@@ -23,7 +23,7 @@ setup (
  version = '1.0.2',
  packages = find_packages(), # list of all packages
  install_requires = install_requires,
- python_requires='>=3.0.0', # any python greater than 2.7
+ python_requires='>=3.0.0', 
  entry_points='''
         [console_scripts]
         insider-scraper=insider.__main__:main
